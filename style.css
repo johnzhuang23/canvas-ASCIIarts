@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.sidebar {
+    height: 100px;
+    line-height: 50px;
+    padding-left: 10%;
+    margin-top: 25%;
+}
+
+input {
+    width: 55%;
+}
+
+#upload-image::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#upload-image::before {
+    content: 'Select an image';
+    background-color: black;
+    border: 1px solid;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+}
+
+#canvas1 {
+    /* background-color: gray; */
+    border: 1px solid green;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 100%;
+    /* width: 600px; */
+    max-height: 600px;
+    max-width: 600px;
+}
+
+select {
+    background-color: black;
+    border: 1px solid;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.download-reminder {
+    color: bisque
+}
+
+.inspired {
+    margin-top: 20%;
+    font-size: small;
+    color: darkslategrey;
+}
+
+a {
+    color: darkslategrey;
+}
